@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin_manifest xmlns="http://www.elgg.org/plugin_manifest/1.8">
+	<name>Liang Lee Panel</name>
+	<author>Liang Lee</author>
+	<version>1.0.2</version>
+	<category>lianglee</category>
+	<category>plugin</category>
+	<description>Replace Elgg Default Admin Panel With Lee's Panel.</description>
+	<website>http://community.elgg.org/pg/profile/arsalanlee</website>
+	<copyright>Copyright (c) 2012  Liang Lee</copyright>
+	<license>GNU General Public License version 2</license>
+      <requires>
+        <type>plugin</type>
+        <name>LiangleeFramework</name>
+        <version>1.1.2</version>
+       </requires>
+	    <requires>
+        <type>plugin</type>
+        <name>developers</name>
+       </requires>
+	  <requires>
+        <type>plugin</type>
+        <name>logbrowser</name>
+       </requires>
+	<screenshot>
+		<description>Dashboard</description>
+		<path>preview/leedashboard.jpg</path>
+	</screenshot>
+	<screenshot>
+		<description>ChangeLogo</description>
+		<path>preview/ChangeLogo.jpg</path>
+	</screenshot>
+	<screenshot>
+		<description>Apache Modules Status</description>
+		<path>preview/Apache~Modules.jpg</path>
+	</screenshot>
+	<screenshot>
+		<description>Perl Status</description>
+		<path>preview/Perl~Status.jpg</path>
+	</screenshot>
+	<screenshot>
+		<description>Edit Profile Fields</description>
+		<path>preview/Profile~Fields.jpg</path>
+	</screenshot>
+	  <requires>
+        <type>plugin</type>
+        <name>garbagecollector</name>
+       </requires>
+	<requires>
+		<type>elgg_release</type>
+		<version>1.8.5</version>
+	</requires>
+	<activate_on_install>true</activate_on_install>
+</plugin_manifest>
